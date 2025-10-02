@@ -1,10 +1,10 @@
 # Limpoo
 
-[!Status](https://limpoo.vercel.app)
-!HTML5
-!CSS3
-!JavaScript
-!Vercel
+[![Status](https://img.shields.io/badge/status-online-brightgreen)](https://limpoo.vercel.app)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)
 
 Projeto fictício simples e moderno para apresentação de serviços de limpeza profissional.  
 👉 **Deploy:** https://limpoo.vercel.app
