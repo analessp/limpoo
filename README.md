@@ -44,6 +44,6 @@ Estrutura organizada em blocos de informação para melhor experiência do usuá
 
 ## 📬 Contato
 
-- 🔗  **LinkedIn**
-- 📧 **E-mail**
+- 🔗  **[LinkedIn](https://linkendin.com/in/ana-lessa-2a312a253)**
+- 📧 **E-mail: lessakesia07@gmail.com**
 ---
