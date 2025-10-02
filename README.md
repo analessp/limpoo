@@ -1,16 +1,49 @@
-# React + Vite
+# Limpoo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[!Status]([https://limpoo.vercel.app])
+!HTML5
+!CSS3
+!JavaScript
+!Vercel
 
-Currently, two official plugins are available:
+Projeto fictício simples e moderno para apresentação de serviços de limpeza profissional.  
+👉 **Deploy:** https://limpoo.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Sobre o projeto
+O **Limpoo** foi desenvolvido para demonstrar de forma clara e atrativa os serviços de limpeza de ambientes, estofados e veículos.  
+O foco está na **usabilidade**, **design responsivo** e **apresentação dos benefícios da limpeza profunda**.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
+- Estrutura de página única (one page).  
+- Seções: **Início**, **Serviços**, **Agendamentos**.  
+- Ícones e descrições dos diferenciais.  
+- Layout responsivo para desktop e mobile.  
+- Deploy no **Vercel**.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Layout
+Visual clean e minimalista, com paleta de cores que transmite **leveza** e **frescor**.  
+Estrutura organizada em blocos de informação para melhor experiência do usuário.
+
+---
+
+## 🛠️ Tecnologias
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**
+- **React**
+- **Vercel** (deploy)
+
+---
+
+
+## 📬 Contato
+
+- 🔗  **LinkedIn**
+- 📧 **E-mail**
+---
