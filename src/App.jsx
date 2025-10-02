@@ -14,7 +14,7 @@ export default function App() {
         <nav>
             <div className="header-logo-text">
                 <a>
-                    <img id="logo" src="/src/assets/logo-limpoo.png" alt="Logotipo Limpoo" />
+                    <img id="logo" src="/public/assets/logo-limpoo.png" alt="Logotipo Limpoo" />
                     </a>
                     <div>
                         <h1>Limpoo</h1>
