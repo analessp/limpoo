@@ -1,6 +1,6 @@
 # Limpoo
 
-[!Status]([https://limpoo.vercel.app])
+[!Status](https://limpoo.vercel.app)
 !HTML5
 !CSS3
 !JavaScript
