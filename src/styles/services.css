@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --cor-primaria: #007bff;
+    --cor-secundaria: #5cb85c;
+    --cor-texto-principal: #0056b3;
+    --cor-texto-secundario: #333;
+    --cor-fundo: #f8f9fa;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-secundario);
+}
+
+h1, h2, h3, h4 {
+    color: var(--cor-texto-principal);
+}
+
+header {
+    background-color: var(--cor-primaria);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid var(--cor-fundo);
+}
+
+.header-logo-text {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#logo {
+    max-width: 50px;
+    height: auto;
+    border-radius: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav h1 {
+    font-size: 1.4em;
+    margin: 0;
+    color: #f8f9fa;
+}
+
+nav p {
+    font-size: 1em;
+    margin-top: 8px;
+    color: #5cb85c;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.4s;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+.navbar-list a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--cor-secundaria);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+.navbar-list a:hover::after {
+    transform: scaleX(1);
+}
+
+.navbar-list .active::after {
+    transform: scaleX(1);
+}
+
+#servicos {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#servicos h2 {
+    font-size: 2.8em;
+    color: var(--cor-texto-principal);
+    margin-bottom: 40px;
+}
+
+#servicos > div {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.servico-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servico-card h3 {
+    color: var(--cor-primaria);
+    font-size: 1.8em;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.servico-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.servico-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-texto-principal);
+    color: #fff;
+    font-size: 0.12em;
+}
