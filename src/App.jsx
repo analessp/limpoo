@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Appointments from "./pages/Appointments";
+import logoLimpoo from '/assets/logo-limpoo.png';
 
 export default function App() {
     return (
@@ -14,7 +15,7 @@ export default function App() {
         <nav>
             <div className="header-logo-text">
                 <a>
-                    <img id="logo" src="/public/assets/logo-limpoo.png" alt="Logotipo Limpoo" />
+                    <img id="logo" src={logoLimpoo} alt="Logotipo Limpoo" />
                     </a>
                     <div>
                         <h1>Limpoo</h1>
